@@ -13,3 +13,7 @@ This includes, without limitation:
 - level/resource archives and other copyrighted cartridge content.
 
 The repository may contain reconstructed program constants/tables and exact assembly representations required to express program behavior. Those are kept separate from user-extracted audiovisual/resource payloads.
+
+## Code-only repository rule
+
+Non-code build data, including the retail RDB data payload and trigger/data tables needed for exact reconstruction, is extracted locally from the user's canonical ROM. It is intentionally not carried as frozen retail data under `src/`.

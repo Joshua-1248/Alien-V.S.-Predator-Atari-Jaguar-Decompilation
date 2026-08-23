@@ -23,7 +23,7 @@ def concat_segments(root,name,manifest):
 def main():
  ap=argparse.ArgumentParser(); ap.add_argument('--assets',required=True); ap.add_argument('--jagcrypt-c',required=True); ap.add_argument('--md5-dat',required=True); ap.add_argument('--output',required=True); ap.add_argument('--verify-retail'); ns=ap.parse_args()
  a=Path(ns.assets); headers=json.loads((a/'gzip_headers.json').read_text()); modes=json.loads((ROOT/'metadata/files_gzip_modes.json').read_text()); seg=json.loads((a/'stage_segments.json').read_text())
- romtxt=parse_words('ROM_TEXT_frozen_exact.s'); fixed=parse_words('ROM_DTA_PREFIX_frozen_exact.s'); rtxt=parse_words('RDB_TEXT_frozen_exact.s'); rdta=parse_words('RDB_DTA_frozen_exact.s'); trig=parse_words('TRIG_TABLES_frozen_exact.s')
+ romtxt=parse_words('ROM_TEXT_frozen_exact.s'); fixed=(a/'rom_dta_prefix.bin').read_bytes(); rtxt=parse_words('RDB_TEXT_frozen_exact.s'); rdta=(a/'rdb_dta.bin').read_bytes(); trig=(a/'trig_tables.bin').read_bytes()
  romdta=fixed+gzip_txt(rtxt)+b'\0'+gzip_dta(rdta)+b'\0'*3
  if len(romtxt)!=0x13b0 or len(romdta)!=(0x14104-0x33b0) or len(trig)!=0xc08: raise SystemExit('frozen source size failure')
  aafs=build_aafs(a/'aafs',headers['AAFS']); files=build_files(a/'files',headers['FILES'],modes)

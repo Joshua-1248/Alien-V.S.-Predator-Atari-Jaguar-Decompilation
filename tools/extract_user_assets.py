@@ -46,6 +46,15 @@ def main():
     b=Path(ns.retail_rom).read_bytes(); h=hashlib.sha256(b).hexdigest()
     if len(b)!=0x400000 or h!=CANON: raise SystemExit('canonical World ROM required')
     root=Path(ns.out_dir); root.mkdir(parents=True,exist_ok=True)
+    # Non-code build data is recovered locally from the user's ROM rather than
+    # distributed in this code-only repository.
+    (root/'rom_dta_prefix.bin').write_bytes(b[0x33B0:0x3804])
+    dobj=zlib.decompressobj(31)
+    rdb_dta=dobj.decompress(b[0xE840:])
+    if not dobj.eof:
+        raise SystemExit('could not decode retail RDBDTA gzip member')
+    (root/'rdb_dta.bin').write_bytes(rdb_dta)
+    (root/'trig_tables.bin').write_bytes(b[0x15000:0x15C08])
     # small non-semantic/historical metadata blobs
     for name,(a,e) in STAGES.items():
         if name in ('overlays_fonts','sound_music','pause_ui','creature_lcs'): continue

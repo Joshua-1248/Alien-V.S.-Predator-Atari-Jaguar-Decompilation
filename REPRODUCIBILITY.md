@@ -1,15 +1,14 @@
 # Reproducibility
 
-Canonical verification target:
+Canonical target: World retail **Alien vs Predator** Atari Jaguar image.
 
-```text
-Platform: Atari Jaguar
-Title: Alien vs Predator
-Region/release: World retail
-Size: 4,194,304 bytes
-SHA-256: b31ca5c2415881ce50d0c076d327297547214a6240f0058b0f225a74f7ce440b
-```
+- Size: `4,194,304` bytes
+- SHA-256: `b31ca5c2415881ce50d0c076d327297547214a6240f0058b0f225a74f7ce440b`
 
-The reconstruction workflow was closed with a zero-difference comparison against that image. The public repository is deliberately code-only: proprietary cartridge assets are re-extracted from the user's own ROM rather than redistributed.
+Run `./build.sh "/path/to/Alien vs. Predator.jag"`.
 
-Exact historical source wording, comments, local labels, and the precise binaries installed on Rebellion's 1994 workstation cannot be proven where those primary artifacts do not survive. Where necessary, `src/frozen_exact/` preserves exact machine-code/source representations so the build oracle remains deterministic.
+A successful canonical build must report `bytes 4194304`, the SHA-256 above, `differing_bytes 0`, and `RESULT BYTE-EXACT`.
+
+The build obtains proprietary audiovisual/resource data and non-code retail data only from the user's locally supplied ROM.
+
+See [`STATUS.md`](STATUS.md) for the precise meaning and provenance boundary of the byte-exact/100% claim.
