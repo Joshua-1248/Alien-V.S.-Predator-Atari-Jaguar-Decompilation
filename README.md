@@ -2,6 +2,8 @@
 
 Code-only preservation/reconstruction repository for the 1994 Atari Jaguar release of **Alien vs Predator**.
 
+**Build dependency:** This project uses the separate [Atari Jaguar 1994 Toolchain Reconstruction](https://github.com/Joshua-1248/Atari_Jaguar_1994_Toolchain_Reconstruction) project to reproduce the historical GCC 2.5.8 Atari ST PL1 → mit2mot → MadMac → ALN build pipeline used for the byte-exact Jaguar build.
+
 ## Important: no game assets are included
 
 This repository intentionally does **not** distribute the retail ROM or proprietary graphics, textures, sprites, sound effects, music samples, level/resource payloads, or other audiovisual game assets.
@@ -28,7 +30,7 @@ The reconstruction has been verified to reproduce the canonical retail image byt
 ## Quick start
 
 1. Clone/download this repository.
-2. Obtain/build the separate `jaguar-1994-toolchain-reconstruction` repository.
+2. Obtain/build the separate [Atari Jaguar 1994 Toolchain Reconstruction](https://github.com/Joshua-1248/Atari_Jaguar_1994_Toolchain_Reconstruction) repository.
 3. Dump your own retail cartridge to `Alien vs. Predator.jag`.
 4. Extract user-owned assets:
 
