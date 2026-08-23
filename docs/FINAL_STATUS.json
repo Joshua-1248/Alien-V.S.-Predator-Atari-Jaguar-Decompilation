@@ -1,0 +1,32 @@
+{
+  "milestone": "M92-final-100pct-closure",
+  "date": "2026-08-22",
+  "canonical_world_rom": {
+    "size": 4194304,
+    "sha256": "b31ca5c2415881ce50d0c076d327297547214a6240f0058b0f225a74f7ce440b",
+    "expected_sha256": "b31ca5c2415881ce50d0c076d327297547214a6240f0058b0f225a74f7ce440b",
+    "verified": true
+  },
+  "game_decompilation": {
+    "semantic_source_coverage": "100%",
+    "byte_exact_rebuild": "PROVEN",
+    "granular_user_asset_rebuild": "PROVEN",
+    "full_rom_differing_bytes": 0,
+    "status": "COMPLETE"
+  },
+  "compiler_toolchain": {
+    "gcc_lineage": "GNU C 2.5.8-atariST Patchlevel 1",
+    "gcc_source_lineage": "CLOSED",
+    "mit2mot_avp_required_behavior": "RECONSTRUCTED/CLOSED",
+    "madmac_aln_required_avp_behavior": "RECONSTRUCTED/CLOSED",
+    "jagcrypt_authentication": "EXACT/PROVEN",
+    "avp_build_functional_toolchain": "COMPLETE",
+    "exact_rebellion_workstation_executable_binary_identity": "UNPROVABLE_FROM_SURVIVING_EVIDENCE",
+    "status": "COMPLETE_TO_EVIDENTIARY_LIMIT"
+  },
+  "unresolved_runtime_or_gameplay_unknowns": 0,
+  "unresolved_rom_bytes": 0,
+  "unresolved_rebuild_bytes": 0,
+  "remaining_actionable_reverse_engineering_tasks": 0,
+  "claim_boundary": "Literal recovery of lost comments/source spelling and proof of byte-identity of absent Rebellion workstation tool executables is impossible without those original artifacts; this is not an unresolved AvP decompilation or rebuild defect."
+}

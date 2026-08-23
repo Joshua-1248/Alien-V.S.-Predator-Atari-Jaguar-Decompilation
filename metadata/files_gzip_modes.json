@@ -1,0 +1,441 @@
+{
+  "87": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "88": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "89": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "90": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "91": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "92": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "93": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "94": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "95": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "96": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "97": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "98": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "99": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "100": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "101": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "103": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "104": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "105": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "106": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "107": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "108": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "109": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "110": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "111": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "112": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "113": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "114": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "115": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "116": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "117": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "118": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "119": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "120": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "121": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "122": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "123": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "124": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "125": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "126": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "127": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "128": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "129": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "130": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "131": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "132": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "133": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "134": {
+    "mode": "persistent_matcher",
+    "priors": [
+      133
+    ]
+  },
+  "135": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "136": {
+    "mode": "persistent_matcher",
+    "priors": []
+  },
+  "137": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "138": {
+    "mode": "persistent_matcher",
+    "priors": [
+      136,
+      137
+    ]
+  },
+  "139": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "140": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "141": {
+    "mode": "persistent_matcher",
+    "priors": []
+  },
+  "142": {
+    "mode": "persistent_matcher",
+    "priors": [
+      141
+    ]
+  },
+  "149": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "150": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "151": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "152": {
+    "mode": "persistent_matcher",
+    "priors": [
+      149,
+      150,
+      151
+    ]
+  },
+  "154": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "155": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "158": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "159": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "160": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "161": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "162": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "163": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "166": {
+    "mode": "persistent_matcher",
+    "priors": []
+  },
+  "167": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "169": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "170": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "171": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "173": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "174": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "175": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "177": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "178": {
+    "mode": "persistent_matcher",
+    "priors": [
+      173,
+      174,
+      175,
+      177
+    ]
+  },
+  "179": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "180": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "181": {
+    "mode": "persistent_matcher",
+    "priors": [
+      173,
+      174,
+      175,
+      177,
+      178,
+      179,
+      180
+    ]
+  },
+  "182": {
+    "mode": "persistent_matcher",
+    "priors": [
+      173,
+      174,
+      175,
+      177,
+      178,
+      179,
+      180,
+      181
+    ]
+  },
+  "185": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "186": {
+    "mode": "persistent_matcher",
+    "priors": [
+      155,
+      185
+    ]
+  },
+  "187": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "188": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "189": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "190": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "191": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "192": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "193": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "194": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "197": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "198": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "199": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "200": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "232": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "233": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "234": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "235": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "236": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "237": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  },
+  "238": {
+    "mode": "old_encoder_modern_tokens"
+  },
+  "239": {
+    "mode": "modern_raw_exact",
+    "memLevel": 8
+  }
+}
